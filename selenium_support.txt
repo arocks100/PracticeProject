@@ -1,0 +1,97 @@
+How to create maven project
+
+postman...
+
+1) Reading from flat file and writing into flat file
+https://reqres.in/api/users
+2) How to iterate a json array
+3) Serialization & De-Serialization in Java
+
+Topics of postname
+------------------
+Basics of post, get, put &  delete  CRUD operations...create, retrieve, update and delete
+different kinds of status codes
+
+narayansel6@gmail.com
+9533109777
+
+1) Operations in each page will declared in that class...method for all urls (post, get, delete, put-supplementing data addition, will be stored in that)...asserts
+
+Running the tests
+-----------------
+1) 
+<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>3.8.1</version>
+			<scope>test</scope>
+		</dependency>
+
+Checking out the files
+----------------------
+1) There will be repository URL...get that and go to eclipse, import project and specify remote repository...and give URL and specify D drive path...click ok...and project will be cloned(checked out)
+2) Then once the project is cloned, go to pom.xml, right click on it and click "Run as" and do Maven build (make sure that this checked automatically from project in the top menu)... 
+3) Variable and method names with middle part having upper case is called..camel casing
+4) If i want to run x jave files in a pkg, then select those two java files, right click and go "Test NG" option..convert to testng...and click finish and it will create testng.xml and then...go to "RunAS" option and click TestNG suite...but mostly...once we convert to testng...right click on pom.xml and run as Maven build and select the already created configuration for "clean and test" because testng is already called from pom.xml...correct ? 
+
+5) To search in the whole project...type CTrl shift R...customized search is Ctrl H...search in the file is..CTrl F 
+
+
+Concepts to practice
+--------------------
+1) Collections API-Arrays
+2) Hashmap
+3) Testng annotations
+4) Java variable types
+5) Coding Standards
+6) Static variables and static block
+7) Abstract Class (Optional)
+8) Method overloading, types of polymorphism
+8) Create github account, download and install gitbash
+9) Miscellaneous
+
+4 847 4230
+
+bapu.suram@tcs.com
+10) Find out ....how to read the varibales by placing cursor....whether response is an object or its a class...are all these get methods part of API are static methods ?
+
+Search options
+---------------
+for particular code in java file for class or interface in project
+
+Array out of bound exception is an unchecked exception that is caught at the runtime
+
+Ctrl + shift + O will delete all unused imports from the file
+to see line numbers...do ctrl F10
+
+Testng URL
+----------
+http://beust.com/eclipse/
+
+1) DAO call
+2) Compile time and run time errors
+3) Strcuture of sourcing 
+4) When to use private and final
+
+
+Static variables
+----------------
+1) Static variables: Once that value is changed in one object...same modified value will be shared by all objects.
+2) Instance variables: The value of an variable will be only for that particular object and for new object...old value will be retained
+3) Final variables: The value can remains constant
+4) Static final variables: 
+5) Inside any methods, variables can only be declared as final and instance variables (means non-static)...one cannot declare static inside any methods
+
+
+Today
+-----
+TestNG & pom.xml running, configuration setting, dependencies and Jenkins (configuration of jobs)
+
+https://howtodoinjava.com/testng/how-to-execute-testng-tests-with-maven-build/
+
+
+ 
+
+
+
+
